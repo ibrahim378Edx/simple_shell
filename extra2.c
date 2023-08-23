@@ -99,7 +99,7 @@ if (str == NULL)
 return (NULL);
 }
 len = _strlen(str);
-newstr = malloc((sizeof(char) * len) + 1);
+newstr = malloc((sizeof(char) * len) +1);
 if (newstr == NULL)
 {
 return (NULL);

@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-  * frees_env - free enviroment variables
+  * free_env - free enviroment variables
   *
   * @env_path: The variable to frees
   *

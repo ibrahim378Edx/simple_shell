@@ -71,7 +71,7 @@ free_t(p_tokns);
 if (stat(cname, &sb) == 0)
 {
 return (cname);
-}	
+}
 }
 
 free(cname);
@@ -79,7 +79,7 @@ return (NULL);
 }
 
 /**
-  * exec - Executes a command
+  * executer - Executes a command
   *
   * @cname: The command to execute
   *

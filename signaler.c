@@ -7,7 +7,7 @@
   *
   * Return: Nothing
   */
-void signal_handler(int sig_id)
+void handler(int sig_id)
 {
 if (sig_id == SIGINT)
 {

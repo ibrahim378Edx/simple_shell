@@ -13,7 +13,7 @@ size_t line_size = 0;
 ssize_t line_len = 0;
 while (line_len >= 0)
 {
-signal(SIGINT, signal_handler);
+signal(SIGINT, handler);
 if (isatty(STDIN_FILENO))
 {
 write(STDOUT_FILENO, "($) ", 4);
@@ -40,9 +40,7 @@ if (u_tokns[0] && access(u_tokns[0], X_OK) == 0)
 executer(u_tokns[0], u_tokns);
 }
 else
-{
 perror("./hsh");
-}
 }
 free_t(u_tokns);
 }

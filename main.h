@@ -24,7 +24,7 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size);
 int counter(char *str);
 int checker(char *str, char *del);
 char *remove_line(char *str);
-void signal_handler(int sig_id);
+void handler(int sig_id);
 void helper(void);
 void printer(void);
 void exiter(char **u_tokns, char *line);

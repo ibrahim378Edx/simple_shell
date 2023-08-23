@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * commands - pushs commands 
+ * commands - pushs commands
  *
  * @u_tokns: userinput
  *
