@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-  * count_input - Counts the user input
+  * counter - Counts the user input
   *
   * @str: the string
   *
