@@ -30,7 +30,7 @@ else
 _puts("exit: Illegal number: ");
 _puts(toki[1]);
 _puts("\n");
-exit(2);
+exit(0);
 }
 
 free_t(toki);
